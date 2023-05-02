@@ -7,4 +7,10 @@ def main(A,B):
     Returns:
         list: return  answer
     """
-    return
+    l=[]
+    for i in range(A,B+1):
+        l.append(i)
+    return l
+A=int(input())
+B=int(input())
+print(main(A,B))
