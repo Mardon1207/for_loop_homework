@@ -6,4 +6,11 @@ def main(price):
     Returns:
         list: return  answer
     """
-    return
+    l=[]
+    m=price
+    for i in range(1,11):
+        l.append(m)
+        m+=price
+    return l
+price=float(input())
+print(main(price))
