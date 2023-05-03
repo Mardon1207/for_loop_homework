@@ -6,4 +6,9 @@ def main(list1):
     Returns:
         list: return  answer
     """
-    return
+    N=len(list1)
+    for i in range(N):
+        list1[i]=list1[i].title()
+    return list1
+list1=['alisher','mardon','mahmud','diyor']
+print(main(list1))
